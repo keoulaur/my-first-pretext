@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-chessboard-problems">
+  <title>Chessboard Problems</title>
+
+  <p>This short lesson introduces perfect coverings of chessboards 
+    with dominoes.</p>
+
+  <definition xml:id="def-perfect-covering">
+    <statement>
+      <p>A <term>perfect covering</term> is a placement of dominoes
+      on the chessboard such that every square is covered exactly 
+      once.</p>
+    </statement>
+  </definition>
+
+  <p>There are two types of theorems here - one is existence, and
+    the other is non-existence...
+  </p>
+
+  <example>
+    <title>A <m> 10\times 10 </m> chessboard. </title>
+    <statement>
+      <p>Show that there exists a perfect covering of 
+        a <m> 10\times 10 </m> chessboard </p>
+    </statement>
+    <solution>
+      <p>Check: Just cover it.</p>
+    </solution>
+  </example>
+
+  <exercise>
+    <statement>
+      <p>Show that if you remove the top left corner and the
+        bottom right corner of a <m>10\times 10</m> chessboard a
+        perfect covering does not exist.
+      </p>
+    </statement>
+  </exercise>
+
+  <p>For a reminder of the terminology,
+  see <xref ref="def-perfect-covering"/>.</p>
+</section>
